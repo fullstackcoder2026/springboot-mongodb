@@ -8,7 +8,7 @@ RUN mvn clean package -DskipTests
 EXPOSE 8083
 ENTRYPOINT ["java", "-jar", "target/app.jar"]
 
-#####Step 2: Start Minikube
+####Step 2: Start Minikube
 ->Start Minikube
 minikube start
 
